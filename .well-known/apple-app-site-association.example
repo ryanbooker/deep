@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "ABC1234567.com.example.app" ],
+        "components": [
+          {
+            "/": "/example/link"
+            "?": { "queryItem": "value" }
+            "#": "a_fragment"
+          }
+        ]
+      }
+    ]
+  }
+}

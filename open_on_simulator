@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -n "${1}" ]
+then
+    xcrun simctl openurl booted "${1}"
+else
+    echo "usage: ./open_on_simulator <ngrok_url>"
+fi

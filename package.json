@@ -1,0 +1,12 @@
+{
+  "name": "Deep",
+  "version": "1.0.0",
+  "description": "Universal Link testing",
+  "main": "index.js",
+  "author": "Ryan Booker",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

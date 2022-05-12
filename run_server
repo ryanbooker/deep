@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+declare -a pids
+
+cleanup() {
+    for pid in "${pids[@]}"; do
+        kill -9 "${pid}"
+    done
+}
+trap cleanup EXIT
+
+node index.js &
+pids+=("$!")
+
+ngrok http 3000
