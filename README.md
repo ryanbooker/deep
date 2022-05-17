@@ -12,6 +12,12 @@ Universal Link testing.
 1. Add/update `.well-known/apple-app-site-association`
 2. List the relevant links for testing in `index.html`
 3. Run the server
+
+Using raw `node` and `yarn`:
+```
+./run_server
+```
+Using `nix`:
 ```
 ./nix_run_server
 ```
