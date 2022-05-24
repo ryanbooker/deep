@@ -22,7 +22,8 @@ Using `nix`:
 ./nix_run_server
 ```
 4. Add the `ngrok` domain to `applinks` in Xcode
-5. Open on the currently booted simulator
+5. Run the app on the simulator
+6. Open the links index on the currently booted simulator
 ```
 ./open_on_simulator <ngrok_url>
 ```
