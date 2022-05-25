@@ -1,6 +1,6 @@
 # Deep
 
-Universal Link testing.
+A local server to aid Universal Link testing on iOS. 
 
 ## Requirements
 
