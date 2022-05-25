@@ -14,17 +14,17 @@ A local server to aid Universal Link testing on iOS.
 3. Run the server
 
 Using raw `node` and `yarn`:
-```
+```shell
 $ yarn # install dependencies
 $ ./run_server
 ```
 Using `nix`:
-```
+```shell
 $ ./nix_run_server
 ```
 4. Add the generated `ngrok` domain to `applinks` in Xcode
 5. Run the app on the simulator
 6. Open the links index on the currently booted simulator
-```
-./open_on_simulator <ngrok_url>
+```shell
+$ ./open_on_simulator <ngrok_url>
 ```
